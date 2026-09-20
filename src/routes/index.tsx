@@ -427,10 +427,10 @@ function LovePage() {
 
           <div className="mt-8 grid sm:grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              { id: 1, src: "/GALLERY/img1.jpeg", label: "Sweet Smiles" },
-              { id: 2, src: "/GALLERY/img2.jpeg", label: "Adventures" },
-              { id: 3, src: "/GALLERY/img3.jpeg", label: "Laughs Together" },
-              { id: 4, src: "/GALLERY/img4.jpeg", label: "Forever & Always" },
+              { id: 1, src: "/GALLERY/Laura.jpeg", label: "Laura 👑" },
+              { id: 2, src: "/GALLERY/img1.jpeg", label: "Sweet Smiles" },
+              { id: 3, src: "/GALLERY/pinchez.jpeg", label: "Together ✨" },
+              { id: 4, src: "/GALLERY/pinchez2.jpeg", label: "Pure Happiness 💕" },
             ].map((img) => (
               <Link
                 key={img.id}

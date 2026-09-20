@@ -15,31 +15,52 @@ export const Route = createFileRoute("/gallery")({
 const galleryItems = [
   {
     id: 1,
+    src: "/GALLERY/Laura.jpeg",
+    title: "Laura, My Queen 👑",
+    caption: "Radiant, beautiful, and the light of my world.",
+    date: "My Favorite",
+  },
+  {
+    id: 2,
     src: "/GALLERY/img1.jpeg",
     title: "Sweet Smiles Together",
     caption: "One of my absolute favorite photos of us, shining with pure joy.",
     date: "Cherished Moment",
   },
   {
-    id: 2,
+    id: 3,
     src: "/GALLERY/img2.jpeg",
     title: "Magical Adventures",
     caption: "Every place is magical whenever I'm standing by your side.",
     date: "Special Memory",
   },
   {
-    id: 3,
+    id: 4,
     src: "/GALLERY/img3.jpeg",
     title: "Unforgettable Laughs",
     caption: "Capturing the genuine happiness and laughter we share every day.",
     date: "Precious Time",
   },
   {
-    id: 4,
+    id: 5,
     src: "/GALLERY/img4.jpeg",
     title: "Forever & Always",
     caption: "Looking forward to creating a thousand more memories with you.",
     date: "Always In My Heart",
+  },
+  {
+    id: 6,
+    src: "/GALLERY/pinchez.jpeg",
+    title: "Unforgettable Moments ✨",
+    caption: "Side by side, making memories that last a lifetime.",
+    date: "Precious Memory",
+  },
+  {
+    id: 7,
+    src: "/GALLERY/pinchez2.jpeg",
+    title: "Pure Happiness 💕",
+    caption: "Your smile makes every ordinary day extraordinary.",
+    date: "Forever Together",
   },
 ];
 
